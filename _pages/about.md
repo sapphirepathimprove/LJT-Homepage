@@ -1,56 +1,131 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Jiatao Lu - Personal Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## Personal Introduction
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Hello! I'm **Jiatao Lu** (陆佳涛), a Master's student at China University of Geosciences (Beijing) majoring in Intelligent Transportation and Complex Systems. My research focuses on complex systems science, multi-scale dynamics, and intelligent transportation. I have a strong background in undergraduate scientific research competitions, with two major achievements in the national "Challenge Cup" competition.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am particularly interested in how complex behaviors emerge from simple interactions across different scales in transportation systems, and how we can leverage mathematical modeling and computational approaches to understand and optimize these systems.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## Academic Background
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### Education
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- **China University of Geosciences (Beijing)**
+  - **Master's Degree** in Intelligent Transportation and Complex Systems (2025 - Present)
+  - Research Direction: Complex Systems Science, Multi-scale Dynamics, Intelligent Transportation
+  - Key Courses: Intelligent Transportation Systems, Complex Systems Theory, Traffic Flow Theory and Modeling, System Dynamics, Big Data Analytics
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- **Jilin University**
+  - **Bachelor of Engineering** in Geographic Information Science (2021 - 2025)
+  - GPA: 3.93/5.0; Ranking: 17/75; Average Score: 85.34/100
+  - Key Courses: GIS Principles, Urban Geographic Information Systems, Spatial Analysis, Digital Terrain Modeling, Geospatial Databases
 
-**Markdown generator**
+---
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## Research Experience
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### 1. Traffic Wave Control and Ecosystem Structure Optimization
+- **Institution:** School of Engineering and Technology, China University of Geosciences (Beijing)
+- **Period:** September 2025 - March 2026
+- **Core Question:** How do the nonlinear evolution characteristics of traffic waves affect the material circulation and energy flow efficiency of transportation ecosystem structures?
+- **Key Responsibilities:**
+  - Developed car-following models and validated simulations based on Jiang Ping's Traffic Flow Theory and Kerner's "Three-Phase Traffic Theory"
+  - Constructed traffic simulation scenarios (highway bottleneck sections, urban expressway merging areas) using Python (SimPy, NetworkX libraries)
+  - Integrated agent-based modeling to simulate emergent traffic wave phenomena from micro to macro scales
+  - Developed macro-meso parameter transmission algorithm to map micro traffic wave parameters to meso and macro levels
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+### 2. Spatial Information Management System for China's National Geographic Conditions Census
+- **Institution:** School of Earth Exploration Science and Technology, Jilin University
+- **Period:** December 2024 - May 2025
+- **Core Question:** How to construct a four-dimensional management system for China's national geographic conditions census?
+- **Key Responsibilities:**
+  - Constructed unified spatiotemporal framework integrating multi-scale geographic entities (points, lines, polygons, networks, terrains)
+  - Developed dynamic update mechanisms for natural geographic elements (terrain, landforms, water systems) and human geographic elements
+  - Implemented metadata management module supporting four-dimensional data retrieval and visualization
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### 3. Green Traffic Carbon Reduction Model in Frigid Urban Areas
+- **Institution:** School of Transportation, Jilin University
+- **Period:** March 2024 - November 2024
+- **Core Question:** How to construct a quantitative model of green traffic carbon reduction effects in high-latitude frigid urban areas?
+- **Key Responsibilities:**
+  - Constructed Bayesian network model integrating meteorological, traffic, and emission data (cold start emissions account for 40-60% of total emissions)
+  - Developed prediction model for urban traffic carbon reduction effects under different scenarios
+  - Proposed seasonal traffic emission management strategies based on multi-factor correlation analysis
+  - Research results transformed into policy recommendations for Changchun municipal transportation department
+
+---
+
+## Publications
+
+1. **Mathematical Simulation Method for Ecosystem Structure and Material Circulation** (Patent, Under Review)
+   - **Authors:** **Jiatao Lu**
+   - **Status:** Patent under review
+   - **Key Contribution:** Invented mathematical simulation method for ecosystem structure and material circulation
+
+2. **Spatial Information Management Method and System for China's National Geographic Conditions Census** (Patent, Pending)
+   - **Authors:** **Jiatao Lu**, Zhenfeng Shao, Xiao Huang, Deren Li
+   - **Status:** Patent pending
+   - **Key Contribution:** Invented spatial information management method for geographic conditions census data
+
+3. **Quantitative Model of Green Traffic Carbon Reduction Effects in High-Latitude Frigid Urban Areas** (Undergraduate Thesis, Excellent)
+   - **Authors:** **Jiatao Lu**
+   - **Evaluation:** Excellent (Top 5% of department)
+   - **Key Contribution:** Constructed quantitative model of green traffic carbon reduction in frigid urban areas
+
+---
+
+## Skills
+
+### Programming & Technical Skills
+- **Programming Languages:** Python (SimPy, NetworkX, Pandas, Scikit-learn), R, MATLAB, SQL
+- **GIS & Remote Sensing:** ArcGIS Pro, QGIS, ENVI, Google Earth Engine, PostGIS
+- **Data Analysis & Modeling:** Complex Network Analysis, Bayesian Networks, Agent-Based Modeling, System Dynamics, Spatiotemporal Data Mining
+- **Visualization:** Matplotlib, GeoDa, Tableau, Origin
+
+### Research Skills
+- Mathematical modeling of complex systems
+- Multi-scale dynamics simulation
+- Traffic flow theory and modeling
+- Geographic information system design and implementation
+- Spatiotemporal data analysis and mining
+- Scientific paper writing and patent application
+
+### Soft Skills
+- Strong analytical and problem-solving abilities
+- Cross-disciplinary research collaboration
+- Academic writing and technical documentation
+- Project management and teamwork
+
+---
+
+## Honors and Awards
+
+1. **17th "Challenge Cup" National College Students Extracurricular Academic and Scientific Works Competition** - **National Second Prize**
+   - Project: "A Study on Spatial Correlation Network Structures of Urban Agglomerations Based on Complex Network Theory - A Case Study of Three Major Urban Agglomerations"
+   - Role: Core Team Member (1st author)
+
+2. **18th "Challenge Cup" National College Students Extracurricular Academic and Scientific Works Competition** - **National Third Prize**
+   - Project: "Mathematical Simulation of Ecosystem Structure and Material Circulation"
+   - Role: Core Team Member (1st author)
+
+3. **Jilin University Excellent Undergraduate Thesis** - Top 5% of department
+
+---
+
+## Contact Information
+
+- **Email:** ljtLJT0123@163.com
+- **GitHub:** [sapphirepathimprove](https://github.com/sapphirepathimprove)
+- **Location:** Beijing, China
+- **Current Affiliation:** China University of Geosciences (Beijing)
+
+I welcome collaboration opportunities in the fields of intelligent transportation, complex systems, and geographic information science. Feel free to reach out if you're interested in discussing research ideas or potential cooperation!
